@@ -23,7 +23,7 @@ Documentation Laravel Sail Terminal
 
 ## Build Project
 
-`sail build`
+`sail build` or `sail build --no-cache` 
 
 explain sail running dockerfile on docker
 
