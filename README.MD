@@ -42,3 +42,10 @@ example `sail npm run dev` or `sail artisan migrate`, dont running `sail artisan
 - build project sail
 - runninng sail in background
 - shutdown sail, if you want stop server
+
+## Ubuntu 18 Save environtment Permanent
+`nano ~/bashrc` 
+
+then add text `alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'`, then save
+
+run environment command `source ~/bashrc`
